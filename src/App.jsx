@@ -1,0 +1,2 @@
+import Navbar from './components/Navbar'; import Hero from './components/Hero'; import Footer from './components/Footer'; import About from './sections/About'; import Experience from './sections/Experience'; import Skills from './sections/Skills'; import Projects from './sections/Projects'; import Education from './sections/Education'; import Contact from './sections/Contact'
+export default function App(){return <><Navbar/><main><Hero/><About/><Experience/><Skills/><Projects/><Education/><Contact/></main><Footer/></>}

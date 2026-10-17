@@ -1,0 +1,1 @@
+export default function SectionHeading({index,label,title,intro}){return <div className="section-head"><p className="section-label">{index} / {label}</p><h2>{title}</h2>{intro&&<p className="section-intro">{intro}</p>}</div>}

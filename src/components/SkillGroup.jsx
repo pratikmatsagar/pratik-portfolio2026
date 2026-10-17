@@ -1,0 +1,1 @@
+export default function SkillGroup({group}){return <article className="skill-group"><header><h3>{group.title}</h3><span>{group.level}</span></header><div className="skill-list">{group.skills.map(([name,src])=><div className="skill" key={name}><img src={src} alt="" loading="lazy" onError={e=>e.currentTarget.style.display='none'}/><span>{name}</span></div>)}</div></article>}

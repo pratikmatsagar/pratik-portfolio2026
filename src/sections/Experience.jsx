@@ -1,0 +1,2 @@
+import Reveal from '../components/Reveal'; import SectionHeading from '../components/SectionHeading'; import ExperienceTimeline from '../components/ExperienceTimeline'
+export default function Experience(){return <section id="experience" className="section"><Reveal><SectionHeading index="02" label="EXPERIENCE" title="A career shaped by building, analyzing and learning." intro="From backend systems to analytics workflows, each role has expanded how I turn requirements into reliable technology."/></Reveal><Reveal><ExperienceTimeline/></Reveal></section>}

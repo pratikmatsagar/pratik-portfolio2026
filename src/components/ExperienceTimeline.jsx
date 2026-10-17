@@ -1,0 +1,2 @@
+import { experience } from '../data/portfolioData'
+export default function ExperienceTimeline(){return <div className="timeline">{experience.map((e,i)=><article className="timeline-item" key={e.company}><span className="timeline-dot"/><div className="timeline-date">{e.period}</div><div><div className="role-line"><h3>{e.role}</h3>{e.current&&<span className="current">CURRENT</span>}</div><p className="company">{e.company}</p><p className="location">{e.location}</p><ul>{e.points.map(p=><li key={p}>{p}</li>)}</ul></div></article>)}</div>}
